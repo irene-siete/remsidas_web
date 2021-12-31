@@ -1,10 +1,10 @@
 <?php
-$firstName=$_GET['firstName'];
-$lastName=$_GETGETGETGET['lastName'];
-$email=$_GETGETGET['email'];
-$gender=$_GETGET['gender'];
-$message=$_GET['message'];
-$age=$_GET['age'];
+$firstName=$_POST['firstName'];
+$lastName=$_POST['lastName'];
+$email=$_POST['email'];
+$gender=$_POST['gender'];
+$message=$_POST['message'];
+$age=$_POST['age'];
 
 echo"<h2>Informacion recibida desde PHP</h2>";
 echo"El nombre recibido es " . $firstName . "<br/>";
