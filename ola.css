@@ -1,0 +1,31 @@
+.siete1 {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px;
+}
+
+.user {
+    font-weight: bold;
+}
+
+em {
+    color: mediumpurple;
+    font-style: normal;
+}
+
+.h1 {
+    color: deeppink
+}
+
+.siete2 {
+    width: 100px;
+    border-radius: 50px;
+    float: right;
+    margin: 30px;
+}
+
+textarea {
+    background: url(images/benice.png) center center no-repeat; /* This ruins default border */
+    border: 1px solid #888;
+}
