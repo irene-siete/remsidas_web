@@ -26,6 +26,11 @@ em {
 }
 
 textarea {
-    background: url(images/benice.png) center center no-repeat; /* This ruins default border */
+    background: url(images/benice.png) center center no-repeat;
     border: 1px solid #888;
+}
+.sexo2{
+
+    background-color: green;
+
 }
