@@ -6,13 +6,12 @@ $gender=$_POST['gender'];
 $message=$_POST['message'];
 $age=$_POST['age'];
 
-$titulo = 'ole';
+echo"<h2>Informacion recibida desde PHP</h2>";
+echo"El nombre recibido es " . $firstName . "<br/>";
+echo"El apellido recibido es " . $lastName . "<br/>";
+echo"El email recibido es " . $email . "<br/>";
+echo"El genero recibido es " . $gender . "<br/>";
+echo"El mensaje recibido es " . $message . "<br/>";
+echo"La edad recibida es " . $age . "<br/>";
 
-$mensaje= "El nombre recibido es " . $firstName . "<br/>"."El apellido recibido es " . $lastName . "<br/>"."El email recibido es " . $email . "<br/>"."El genero recibido es " . $gender . "<br/>"."El mensaje recibido es " . $message . "<br/>"."La edad recibida es " . $age . "<br/>";
-$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$cabeceras .= 'To:'.$email. "\r\n";
-$cabeceras .= 'From: Recordatorio <vladimir_putin@gmail.com>' . "\r\n";
-$vble=mail($para, $título, $mensaje, $cabeceras);
-echo $vble ? 'true' : 'false';
 ?>
